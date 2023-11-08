@@ -1,0 +1,20 @@
+caCert:
+  serial: 1
+  validForYears: 10
+  subject:
+    country: CA
+    organization: Demo
+    organizationalUnit: Certificate Management
+    locality: ON
+    commonName: Self signed CA Certificate
+certs:
+  sample.localtest.me:
+    serial: 1
+    validForYears: 1
+    dnsNames: ["demo1.localtest.me", "demo2.localtest.me"]
+    subject:
+      country: CA
+      organization: Demo Org
+      organizationalUnit: department
+      locality: NY
+      commonName: demo.localtest.me
